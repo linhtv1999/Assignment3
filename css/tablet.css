@@ -1,0 +1,41 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .text-nav,
+    .avt-banner {
+        display: none;
+    }
+    #nav-bar a:link,
+    a:visitted {
+        padding: 16px;
+        margin-right: 1rem;
+        padding-bottom: 30px;
+    }
+    #nav-bar {
+        margin-top: 1rem;
+    }
+    #personal-info {
+        font-size: 14px;
+    }
+    #target {
+        font-size: 14px;
+    }
+    .cer-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .project-title {
+        font-size: 9px;
+    }
+    .project-border{
+        font-size: 8px;
+    }
+    .project-border span {
+        margin-right: 5px !important;
+    }
+    td {
+        font-size: 10px;
+    }
+    tr td:first-child {
+        width: 30%;
+    }
+
+}
